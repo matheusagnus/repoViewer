@@ -1,0 +1,7 @@
+{
+  "name": "repoViewer",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
