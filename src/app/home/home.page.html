@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Repo Viewer</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="main-container">
+    <img src="../../assets/logo.svg" alt="">
+    <div class="main-search">
+      <ion-item>
+        <ion-label position="floating">Digite aqui...</ion-label>
+        <ion-input [(ngModel)]="search" (change)="searchRepo()" enterkeyhint="search"></ion-input>
+      </ion-item>
+      <ion-icon name="search-outline" class="icon" (click)="searchRepo()"></ion-icon>
+    </div>
+  </div>
+</ion-content>
